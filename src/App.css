@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+}
+.inputbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#hours {
+  width: 40px;
+}
+#subject {
+  width: 200px;
+}
+button {
+  background-color: rgb(130, 130, 255);
+  border: none;
+  padding: 3px 5px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+.taskList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#add {
+  background-color: green;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 3px;
+  color: white;
+}
+#remove {
+  background-color: red;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 3px;
+  color: white;
+}
